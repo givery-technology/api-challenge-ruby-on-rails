@@ -1,0 +1,2 @@
+Could not find generator 'add_index'. Maybe you meant 'model', 'mailer' or 'resource'
+Run `rails generate --help` for more options.
