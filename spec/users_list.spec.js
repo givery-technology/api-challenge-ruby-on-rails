@@ -9,9 +9,6 @@ var API = spec.define({
   "method": "GET",
   "request": {
     "contentType": spec.ContentType.URLENCODED,
-    "params": {
-      "id": "int"
-    },
   },
   "response": {
     "contentType": spec.ContentType.JSON,
@@ -35,7 +32,7 @@ describe("login", function() {
   var host = spec.host("localhost:3000");
 
   it("Testing", function(done) {
-    host.api(API).params({"id": 1}).success(function(data) {
+    host.api(API).success(function(data) {
       assert.equal(data[0].username, "user1");
       done();
     });
