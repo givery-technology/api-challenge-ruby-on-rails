@@ -1,0 +1,24 @@
+{
+  "name": "api-challenge-ruby",
+  "version": "0.0.1",
+  "description": "Sample challenge in ruby on rails for new code check sprint",
+  "scripts": {
+    "test": "mocha spec/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sukeshni/api-challenge-ruby.git"
+  },
+  "author": "givery Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sukeshni/api-challenge-ruby/issues"
+  },
+  "homepage": "https://github.com/sukeshni/api-challenge-ruby",
+  "dependencies": {
+    "api-first-spec": "^0.2.9",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sqlite3": "^3.1.1"
+  }
+}
