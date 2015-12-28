@@ -1,5 +1,6 @@
 build:
   - npm install
+  - rake --rakefile challenge_api/Rakefile db:reset
 web:
   command: rails server
   port: 3000
